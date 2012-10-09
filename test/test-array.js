@@ -13,9 +13,3 @@ test('#indexOf()', function(){
   assert.ok(arr.indexOf(2) === 1);
   assert.ok(arr.indexOf(3) === 2);
 });
-
-suite('String');
-
-test('#length', function(){
-  assert.ok('foo'.length === 3);
-});
