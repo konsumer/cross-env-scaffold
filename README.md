@@ -1,4 +1,12 @@
-cross-env-scaffold
-==================
+# cross-env-scaffold
 
-Simple scaffolding for javascript project that works in browser or command-line
+## Usage
+
+* `npm install` to install development dependencies
+
+## Testing
+
+* `npm test` for test
+* `npm run nyan` for cute test
+* `open test/index.html` for in-browser testing
+

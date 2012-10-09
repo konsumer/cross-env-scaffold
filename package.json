@@ -1,0 +1,22 @@
+{
+    "name": "janrain-widgets",
+    "version": "0.0.1",
+    "homepage": "https://github.com/janrain/widgets",
+    
+    "scripts": {
+        "test": "mocha --reporter spec --ui qunit test/test-*.js",
+        "nyan": "mocha --reporter nyan --ui qunit test/test-*.js"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:janrain/widgets.git"
+    },
+
+    "dependencies": {
+    },
+    
+    "devDependencies": {
+        "mocha":""
+    }
+}
