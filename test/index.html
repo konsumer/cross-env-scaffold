@@ -1,10 +1,33 @@
 <html>
-	<head>
-        <meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/qunit/qunit-1.10.0.css" />
-	</head>
-	<body><div id="qunit"></div>​</body>
-    <script src="http://code.jquery.com/qunit/qunit-1.10.0.js"></script>
-    <script src="test-string.js"></script>
-    <script src="test-array.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>Test </title>
+<style type="text/css">
+body {
+  font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+iframe {
+  width: 100%;
+  border:1px solid black;
+}
+</style>
+</head>
+<body>
+<h1>Tests</h1>
+</body>
+  <script>
+    // combine tests with &
+    var tests = ['foobar', 'dumb', 'foobar&dumb'];
+
+    tests.forEach(function(n){
+      var b = document.getElementsByTagName("body")[0];
+      var i = document.createElement('iframe');
+      i.src = 'iframe.html?' + n;
+      var h2 = document.createElement('h2');
+      h2.innerHTML = n;
+      b.appendChild(h2);
+      b.appendChild(i);
+    });
+  </script>
+
 </html>

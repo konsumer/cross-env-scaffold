@@ -4,8 +4,8 @@
     "homepage": "https://github.com/konsumer/cross-env-scaffold",
     
     "scripts": {
-        "test": "mocha --reporter spec --ui qunit test/test-*.js",
-        "nyan": "mocha --reporter nyan --ui qunit test/test-*.js"
+        "test": "mocha --reporter spec test/test.*.js",
+        "start" : "node server.js"
     },
 
     "repository": {
@@ -14,9 +14,12 @@
     },
 
     "dependencies": {
+        "express": "3.x"
     },
     
     "devDependencies": {
-        "mocha":""
+        "mocha":"",
+        "chai":"",
+        "phantom":""
     }
 }
