@@ -3,7 +3,7 @@
 ## Usage
 
 * `npm install` to install development dependencies
-* `npm start` starts a developer-server for browser-based usage
+* `npm start` starts a developer-server for browser-based usage (totally optional)
 
 ## Testing
 
