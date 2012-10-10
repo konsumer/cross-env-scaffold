@@ -8,9 +8,9 @@
 ## Testing
 
 * `npm test` for test
-* `npm run singletest TESTNAME` for a single test in CLI
+* `TEST={TESTNAME} npm run singletest` for a single test in CLI
 * `open test/index.html` for in-browser testing.
-* `open test/test.html?TESTNAME` for in-browser testing of a single test
+* `open test/test.html?{TESTNAME}` for in-browser testing of a single test
 
 For single-tests, testname can be combined with & symbol, to include multiple files in a single instance.
 
