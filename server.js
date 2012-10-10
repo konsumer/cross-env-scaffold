@@ -6,7 +6,7 @@ app.configure(function(){
 });
 
 app.get('/', function(req, res){
-  res.send('<a href="/test">test</a><br/>');
+  res.send('<h1>Dev Server</h1><ul><li><a href="/test">test</a></li></ul>');
 });
 
 
