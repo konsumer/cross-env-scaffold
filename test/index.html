@@ -22,7 +22,7 @@ iframe {
     tests.forEach(function(n){
       var b = document.getElementsByTagName("body")[0];
       var i = document.createElement('iframe');
-      i.src = 'test.html?' + n;
+      i.src = 'lib/test.html?' + n;
       var h2 = document.createElement('h2');
       h2.innerHTML = n;
       b.appendChild(h2);

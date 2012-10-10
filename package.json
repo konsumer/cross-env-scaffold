@@ -22,7 +22,7 @@
 
     "scripts": {
         "test": "mocha --reporter spec test/test.*.js",
-        "singletest": "test/test.js"
+        "singletest": "test/lib/test.js"
     },
 
     "devDependencies": {

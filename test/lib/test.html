@@ -2,19 +2,19 @@
 <head>
   <meta charset="utf-8">
   <title>Test </title>
-  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  <link rel="stylesheet" href="../../node_modules/mocha/mocha.css" />
 </head>
 <body>
   <div id="mocha"></div>
-  <script src="../node_modules/chai/chai.js"></script>
-  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
   <script>mocha.setup('bdd')</script>
   <script>
     location.search.substr(1).split('&').forEach(function(n,i,a){
       var h = document.getElementsByTagName("head")[0];     
       var s = document.createElement('script');
       s.type = 'text/javascript';
-      s.src = 'test.' + n + '.js';
+      s.src = '../test.' + n + '.js';
       h.appendChild(s);
       s.onload=function(){
         if (i == a.length-1){
