@@ -2,20 +2,29 @@
     "name": "your-project",
     "version": "0.0.1",
     "homepage": "https://github.com/konsumer/cross-env-scaffold",
-    
-    "scripts": {
-        "test": "mocha --reporter spec test/test.*.js",
-        "singletest": "test/test.js"
-    },
 
     "repository": {
         "type": "git",
         "url": "git@github.com:konsumer/cross-env-scaffold.git"
     },
 
+    "bugs": {
+        "url" : "http://github.com/konsumer/cross-env-scaffold/issues"
+    },
+
     "dependencies": {
     },
+
+    "contributors": [
+        "David Konsumer"
+    ],
     
+
+    "scripts": {
+        "test": "mocha --reporter spec test/test.*.js",
+        "singletest": "test/test.js"
+    },
+
     "devDependencies": {
         "mocha":"",
         "chai":"",
