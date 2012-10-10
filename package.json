@@ -6,7 +6,6 @@
     "scripts": {
         "test": "mocha --reporter spec test/test.*.js",
         "start" : "node server.js",
-        "coverage": "mocha -R html-cov test/test.*.js > test/coverage.html"
     },
 
     "repository": {
@@ -20,7 +19,6 @@
     
     "devDependencies": {
         "mocha":"",
-        "chai":"",
-        "jscoverage":""
+        "chai":""
     }
 }

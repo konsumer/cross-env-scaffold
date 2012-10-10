@@ -16,7 +16,15 @@
       s.type = 'text/javascript';
       s.src = 'test.' + n + '.js';
       h.appendChild(s);
-      s.onload=function(){ if (i == a.length-1) mocha.run(); };
+      s.onload=function(){
+        if (i == a.length-1){
+          if (window.mochaPhantomJS) {
+            mochaPhantomJS.run();
+          }else {
+            mocha.run();
+          }
+        }
+      };
     });
   </script>
 </body>
