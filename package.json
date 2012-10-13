@@ -21,7 +21,7 @@
     
 
     "scripts": {
-        "test": "mocha --reporter spec test/test.*.js",
+        "test": "mocha --reporter nyan test/test.*.js",
         "singletest": "test/lib/test.js"
     },
 

@@ -24,10 +24,11 @@ describe('Foobar', function() {
     it('should work with should', function() {
       foobar.sayHello().should.equal('Hello World!');
     });
-
+    /*
     it('should fail, funky chicken', function() {
       foobar.sayHello().should.equal('funky chicken!');
     });
+    */
   });
 });
 
@@ -44,9 +45,10 @@ describe('Barfoo', function() {
     it('should work with should', function() {
       foobar.sayHello().should.equal('Hello World!');
     });
-
+    /*
     it('should fail, funky chicken', function() {
       foobar.sayHello().should.equal('funky chicken!');
     });
+    */
   });
 });

@@ -1,5 +1,7 @@
 # cross-env-scaffold
 
+[![Build Status](https://secure.travis-ci.org/konsumer/cross-env-scaffold.png)](http://travis-ci.org/konsumer/cross-env-scaffold)
+
 ## Usage
 
 * `npm install` to install development dependencies
