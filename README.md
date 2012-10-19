@@ -10,7 +10,6 @@
 ## Testing
 
 * `npm test` for test
-* `TEST={TESTNAME} npm run singletest` for a single test in CLI
 * `open test/index.html` for in-browser testing.
 * `open test/lib/test.html?{TESTNAME}` for in-browser testing of a single test
 

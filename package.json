@@ -1,33 +1,36 @@
 {
-    "name": "your-project",
-    "version": "0.0.1",
-    "homepage": "https://github.com/konsumer/cross-env-scaffold",
+  "name": "cross-env-scaffold",
+  "version":"0.0.1",
+  "private":true,
 
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:konsumer/cross-env-scaffold.git"
-    },
+  "contributors": [
+    "David Konsumer <konsumer@janrain.com>"
+  ],
 
-    "bugs": {
-        "url" : "http://github.com/konsumer/cross-env-scaffold/issues"
-    },
+  "homepage": "https://github.com/konsumer/cross-env-scaffold",
 
-    "dependencies": {
-    },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:konsumer/cross-env-scaffold.git"
+  },
 
-    "contributors": [
-        "David Konsumer"
-    ],
-    
+  "bugs": {
+    "url" : "http://github.com/konsumer/cross-env-scaffold/issues"
+  },
 
-    "scripts": {
-        "test": "mocha --reporter spec test/test.*.js",
-        "singletest": "test/lib/test.js"
-    },
+  "dependencies":{
+    "express": "",
+    "hbs": "",
+    "supervisor": ""
+  },
 
-    "devDependencies": {
-        "mocha":"",
-        "chai":"",
-        "express": "3.x"
-    }
+  "devDependencies":{
+    "mocha":"",
+    "chai": ""
+  },
+
+  "scripts":{
+    "start": "supervisor server.js",
+    "test": "mocha --reporter spec test/test.*.js"
+  }
 }

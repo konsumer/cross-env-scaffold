@@ -1,26 +1,21 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Test </title>
-<style type="text/css">
-body {
-  font: 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-iframe {
-  width: 100%;
-  border:1px solid black;
-}
-</style>
+  <title>Unit Tests</title>
+  <link href="../static/style.css" rel="stylesheet">
 </head>
-<body>
-<h1>Tests</h1>
+<body class="test">
+<header><h1>Unit Tests</h1></header>
+  <section>
+  </section>
 </body>
   <script>
     // combine tests with &
-    var tests = ['foobar', 'dumb', 'foobar&dumb'];
+    // this should be in include file, later.
+    var tests = ['foobar'];
 
     tests.forEach(function(n){
-      var b = document.getElementsByTagName("body")[0];
+      var b = document.getElementsByTagName("section")[0];
       var i = document.createElement('iframe');
       i.src = 'lib/test.html?' + n;
       var h2 = document.createElement('h2');
