@@ -25,9 +25,11 @@ describe('Foobar', function() {
       foobar.sayHello().should.equal('Hello World!');
     });
 
+    /*
     it('should fail, funky chicken', function() {
       foobar.sayHello().should.equal('funky chicken!');
     });
+     */
   });
 });
 
@@ -45,8 +47,10 @@ describe('Barfoo', function() {
       foobar.sayHello().should.equal('Hello World!');
     });
 
+    /*
     it('should fail, funky chicken', function() {
       foobar.sayHello().should.equal('funky chicken!');
     });
+     */
   });
 });
