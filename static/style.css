@@ -97,6 +97,5 @@ body.test section{
 iframe {
   background:#fff;
   width: 100%;
-  border: 1px solid #eee;
-  height:auto;
+  border:none;
 }

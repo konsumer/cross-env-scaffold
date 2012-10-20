@@ -18,6 +18,10 @@
       var b = document.getElementsByTagName("section")[0];
       var i = document.createElement('iframe');
       i.src = 'lib/test.html?' + n;
+      i.scrolling="no";
+      i.onload = function(){
+        this.style.height = (this.contentWindow.document.body.offsetHeight + this.contentWindow.document.body.scrollHeight) + 'px';
+      };
       var h2 = document.createElement('h2');
       h2.innerHTML = n;
       b.appendChild(h2);
