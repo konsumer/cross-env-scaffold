@@ -15,10 +15,10 @@ var require = function (name, path) {
 			// path is set to root of project
 			AJAX.open("GET", path + name + '.js', false);                             
 			AJAX.send(null);
-			window.imported[name] = new Function('var exports={};' + AJAX.responseText + ';return exports;')();
+			window.imported[name] = new Function('var exports={};' + AJAX.responseText + ';return exports;');
 		} else {
 			return false;
 		}
 	}
-	return window.imported[name];                                    
+	return window.imported[name]();
 }
