@@ -1,5 +1,7 @@
 # cross-env-scaffold
 
+A quick starter for an express-based webapp with [travis](https://secure.travis-ci.org/) & local mocha testing (client and server-side) and [handlebars](http://handlebarsjs.com/) templates. 
+
 [![Build Status](https://secure.travis-ci.org/konsumer/cross-env-scaffold.png)](http://travis-ci.org/konsumer/cross-env-scaffold)
 
 ## Usage
